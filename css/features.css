@@ -12,3 +12,21 @@
 .features-section .article-title {
   margin-bottom: 8px;
 }
+.feature-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+.feature-icon-list .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}

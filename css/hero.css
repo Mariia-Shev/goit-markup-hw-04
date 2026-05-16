@@ -5,6 +5,8 @@
 .hero-section {
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7)), url('../images/hero/hero-bg.jpg');
+  background-size: cover;
+  /* width: 1440px; */
   background-repeat: no-repeat;
   background-position: center;
 }
