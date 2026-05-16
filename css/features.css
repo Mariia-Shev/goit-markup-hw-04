@@ -1,0 +1,14 @@
+.features-section {
+  padding: 120px 0;
+}
+.features-section ul {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 24px; */
+}
+.features-list .item {
+  width: 264px;
+}
+.features-section .article-title {
+  margin-bottom: 8px;
+}
