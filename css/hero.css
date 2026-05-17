@@ -38,4 +38,8 @@
 .hero-button:focus {
   background-color: #404bbf;
   color: #ffffff;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
