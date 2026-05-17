@@ -45,6 +45,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #fff;
   /* margin-bottom: 16px; */
 }
 .footer-social-link {
@@ -59,12 +60,15 @@
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
-}
-.footer-social-link .link:hover {
-  background-color: #31d0aa;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-social-link .link:hover,
+.footer-social-link .link:focus {
+  background-color: #31d0aa;
+
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
 .footer-social-link .link svg {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
